@@ -1,0 +1,45 @@
+@charset 'utf-8' ;
+
+/* reset css */
+html { color: #666; background: none; font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; }
+article, aside, details, figcaption, figure, footer, header, nav, section { display: block }
+body {font-family: '나눔고딕', NanumGothic, ng, Tahoma, Sans-serif;}
+img { vertical-align: middle; border: 0; }
+button, input, select, textarea { margin: 0; font-size: 100%; vertical-align: middle; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset { border: 0; }
+legend { color: #000; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: 400; }
+ol, ul, menu { list-style: none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+caption, hr, legend { *display: none; font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0; }
+a/*, a:link, a:visited, a:active, a:hover, a:focus*/ { text-decoration: none; color: #777777 }
+strong { font-family: nanumb }
+th, td {
+}
+
+input, select { -webkit-appearance: none; border: none; background: #FFFFFF; -moz-appearance: none }
+select::-ms-expand {
+    display: none;
+}
+@font-face {
+    font-family:	;
+    src: url(font/NanumGothic-Regular.eot);
+    src: local('※'), url(font/NanumGothic-Regular.woff) format('woff');
+}
+@font-face{font-family:nanumb;
+    font-weight: bold;
+    src:url(font/NanumGothic-Bold.eot);
+    src:local(※),url(font/NanumGothic-Bold.woff) format('woff')
+}
+@font-face{font-family: 'Julius Sans One', sans-serif;}
+
+a:link, a:visited{color: inherit; /*부모의 속성을 그래도 상속받음*/	text-decoration:none;}
+li{list-style: none;}
+h1{font-size: 25px; color: #fff;}
+h2{font-size: 19px; color: #333; margin: 5px 0;}
+h3{font-size: 12px; color: #666; margin: 5px 0;}
+p{margin-bottom: 5px;}
